@@ -1,0 +1,173 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:9b5d7b15-f8b1-59a9-82d4-b7f638c758a1",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T15:53:48Z",
+  "component": {
+   "type": "application",
+   "name": "CARLA",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CARLA@83b357604d34",
+   "purl": "pkg:generic/anticloud/CARLA@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "LibXml2",
+   "version": "unspecified",
+   "purl": "pkg:generic/LibXml2",
+   "bom-ref": "native/LibXml2@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Python3",
+   "version": "unspecified",
+   "purl": "pkg:generic/Python3",
+   "bom-ref": "native/Python3@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pygame",
+   "version": ">=2.6",
+   "purl": "pkg:pypi/pygame@2.6",
+   "bom-ref": "pypi/pygame@>=2.6"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=1.26",
+   "purl": "pkg:pypi/numpy@1.26",
+   "bom-ref": "pypi/numpy@>=1.26"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": ">=1.11",
+   "purl": "pkg:pypi/scipy@1.11",
+   "bom-ref": "pypi/scipy@>=1.11"
+  },
+  {
+   "type": "library",
+   "name": "grpcio",
+   "version": ">=1.66",
+   "purl": "pkg:pypi/grpcio@1.66",
+   "bom-ref": "pypi/grpcio@>=1.66"
+  },
+  {
+   "type": "library",
+   "name": "protobuf",
+   "version": ">=5.29",
+   "purl": "pkg:pypi/protobuf@5.29",
+   "bom-ref": "pypi/protobuf@>=5.29"
+  },
+  {
+   "type": "library",
+   "name": "carla",
+   "version": ">=0.10.0",
+   "purl": "pkg:pypi/carla@0.10.0",
+   "bom-ref": "pypi/carla@>=0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "pyyaml",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pyyaml",
+   "bom-ref": "pypi/pyyaml@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pillow",
+   "version": ">=10",
+   "purl": "pkg:pypi/pillow@10",
+   "bom-ref": "pypi/pillow@>=10"
+  },
+  {
+   "type": "library",
+   "name": "carla-cosmos",
+   "version": ">=0.2.0",
+   "purl": "pkg:pypi/carla-cosmos@0.2.0",
+   "bom-ref": "pypi/carla-cosmos@>=0.2.0"
+  },
+  {
+   "type": "library",
+   "name": "carla-cosmos-workers",
+   "version": ">=0.2.0",
+   "purl": "pkg:pypi/carla-cosmos-workers@0.2.0",
+   "bom-ref": "pypi/carla-cosmos-workers@>=0.2.0"
+  },
+  {
+   "type": "library",
+   "name": "fastapi",
+   "version": ">=0.110",
+   "purl": "pkg:pypi/fastapi@0.110",
+   "bom-ref": "pypi/fastapi@>=0.110"
+  },
+  {
+   "type": "library",
+   "name": "uvicorn",
+   "version": ">=0.29",
+   "purl": "pkg:pypi/uvicorn@0.29",
+   "bom-ref": "pypi/uvicorn@>=0.29"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2",
+   "purl": "pkg:pypi/pydantic@2",
+   "bom-ref": "pypi/pydantic@>=2"
+  },
+  {
+   "type": "library",
+   "name": "httpx",
+   "version": ">=0.27",
+   "purl": "pkg:pypi/httpx@0.27",
+   "bom-ref": "pypi/httpx@>=0.27"
+  },
+  {
+   "type": "library",
+   "name": "Carla",
+   "version": "unspecified",
+   "purl": "pkg:generic/Carla",
+   "bom-ref": "native/Carla@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Qt6",
+   "version": "unspecified",
+   "purl": "pkg:generic/Qt6",
+   "bom-ref": "native/Qt6@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Qt5",
+   "version": "unspecified",
+   "purl": "pkg:generic/Qt5",
+   "bom-ref": "native/Qt5@unspecified"
+  }
+ ],
+ "sha_unverified": true
+}
